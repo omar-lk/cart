@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .container
+    {
+        display: flex;
+        margin: 0px 15% 0% 15%;
+        justify-content: space-between;
+    }
+    .produit-image
+    {
+        width: 200px;
+    }
+    .panie-ligne
+    {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 5px;
+    }
+   
+
+.panie-container{
+display: none;
+}
+
+.panie-icon:hover .panie-container{
+display: block;
+}
+ 
+  
+   
+    
+    </style>
+     <script src="panie.js" ></script>
+</head>
+<body>
+    <img class="panie-icon" src="image/panie.png">
+    <div class="panie-container">
+   
+        <div class="" style="display: flex;">
+            
+        </div>
+        <div class="panie-article" >
+        </div>
+        <div class="panie-total">
+            <strong class="panie-total-titre">Total</strong>
+            <span class="panie-total-prix">0dh</span>
+        </div>
+        
+    </div>
+
+
+<div class="container" style="margin-top:60px ;">
+    <div class="hero">
+        <img class="produit-image" src="image/produit.jpg">
+        <div class="produit-titre">produit1</div>
+       <div class="produit-prix">200dh</div>
+       <div><button  class="add-article-button"  type="button">ajouter au panier</button></div>
+    </div>
+    <div class="hero">
+        <img class="produit-image" src="image/produit1.jpg">
+        <div class="produit-titre">produit2</div>
+       <div class="produit-prix">200dh</div>
+       <div><button class="add-article-button"  type="button">ajouter au panier</button></div>
+        </div>
+        <div class="hero">
+            <img class="produit-image" src="image/produit2.jpg">
+            <div class="produit-titre">produit3</div>
+           <div class="produit-prix">200dh</div>
+           <div><button class="add-article-button"  type="button">ajouter au panier</button></div>
+            </div>
+            <div class="hero">
+                <img class="produit-image" src="image/produit3.jpg">
+                <div class="produit-titre">produit4</div>
+               <div class="produit-prix">200dh</div>
+               <div><button class="add-article-button"  type="button">ajouter au panier</button></div>
+                </div>
+</div>
+<script src="panie.js" async></script>
+</body>
+</html>
